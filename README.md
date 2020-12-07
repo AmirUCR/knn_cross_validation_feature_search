@@ -24,24 +24,25 @@ The large datasets each take about an hour and fourty minutes to run to completi
 
 Here is the results for k = 1, 3, 5 for small 67 and 80:
 
-Small 80:
-Using all 10 features, the accuracy of the 1NN is 65%
-k = 1: Most accurate subset is [4 , 2 ] with an accuracy of 92.0%
-k = 3: Most accurate subset is [4, 2, 6] with an accuracy of 90.0%
-k = 5: Most accurate subset is [4, 2, 7] with an accuracy of 92.0%
+Small 80:<br />
+Using all 10 features, the accuracy of the 1NN is 65%<br />
+k = 1: Most accurate subset is [4 , 2 ] with an accuracy of 92.0%<br />
+k = 3: Most accurate subset is [4, 2, 6] with an accuracy of 90.0%<br />
+k = 5: Most accurate subset is [4, 2, 7] with an accuracy of 92.0%<br />
 
-Small 67:
-Using all 10 features, the accuracy of the 1NN is 81%
-k = 1: Most accurate subset is [0, 9 ] with an accuracy of 93.0%
-k = 3: Most accurate subset is [0, 9 ] with an accuracy of 94.0%
-k = 5: Most accurate subset is [0, 5, 7] with an accuracy of 93.0%
+Small 67:<br />
+Using all 10 features, the accuracy of the 1NN is 81%<br />
+k = 1: Most accurate subset is [0, 9 ] with an accuracy of 93.0%<br />
+k = 3: Most accurate subset is [0, 9 ] with an accuracy of 94.0%<br />
+k = 5: Most accurate subset is [0, 5, 7] with an accuracy of 93.0%<br />
 
-Large 80:
-Using all 40 features, the accuracy of the 1NN is 69.5%
-k = 1: Most accurate subset is [26, 0] with an accuracy of 95.5%
-large 67:
-Using all 40 features, the accuracy of the 1NN is 66.6%
-k = 1: Most accurate subset is [10, 11] with an accuracy of 96.7%
+Large 80:<br />
+Using all 40 features, the accuracy of the 1NN is 69.5%<br />
+k = 1: Most accurate subset is [26, 0] with an accuracy of 95.5%<br />
+
+large 67:<br />
+Using all 40 features, the accuracy of the 1NN is 66.6%<br />
+k = 1: Most accurate subset is [10, 11] with an accuracy of 96.7%<br />
 
 It is evident that features 2 and 4 contribute the most to the small 80 dataset classification. For k = 1 and 3, features 0 and 9 contribute the most to the small 67 dataset classifier.
 
